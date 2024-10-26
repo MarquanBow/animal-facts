@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevents page from scrolling */
+  }
+  
+  .container {
+    text-align: center;
+    width: 300px;
+    max-height: 90vh; /* Limits container height */
+    overflow-y: auto; /* Enables vertical scroll */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  #animal-info {
+    text-align: left;
+  }
+  
