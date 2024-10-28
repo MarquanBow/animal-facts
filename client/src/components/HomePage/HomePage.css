@@ -1,0 +1,125 @@
+
+/* client/src/components/HomePage.css */
+
+.homepage {
+    padding-top: 60px; /* Offset for fixed navbar */
+  }
+  
+  .hero-section {
+    
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .cta-button {
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #0099CC;
+  }
+  
+  .featured-animals {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .animal-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .animal-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .animal-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .animal-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .fun-facts {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0f7fa;
+  }
+  
+  .fun-facts p {
+    font-size: 1.2em;
+    color: #00796b;
+  }
+  
+  .testimonials {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+  }
+  
+  .quick-search {
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  .quick-search input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .how-it-works {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .step {
+    width: 200px;
+  }
+  
+  .step h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+
+.animal-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
